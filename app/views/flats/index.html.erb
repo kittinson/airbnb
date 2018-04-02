@@ -1,0 +1,9 @@
+<h1>Flats</h1>
+<p>Our flats</p>
+<% @flats.each_with_index do |flat, index| %>
+<li>
+<%= flat["name"] %>
+<%= flat["price"] %> EUR
+</li>
+<% end %>
+
